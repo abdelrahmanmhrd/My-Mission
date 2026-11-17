@@ -1,0 +1,43 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]uilds-*/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Mono crash / stack dumps
+mono_crash.*.blob
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.stackdump
+
+# Visual Studio / Rider
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.booproj
+*.sversion
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Builds / exports
+*.apk
+*.aab
+*.unitypackage
+*.app
+ExportedObj/
