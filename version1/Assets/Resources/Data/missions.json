@@ -1,0 +1,156 @@
+{
+    "items": [
+        {
+            "id": "M0-APOLLO",
+            "name": "Apollo 11",
+            "briefTitle": "MISSION 00: APOLLO TUTORIAL",
+            "briefBody": "Your objective is to land a three-person crew on the Moon and return them safely to Earth. Configure a launch vehicle, spacecraft and launch facility capable of the journey while staying within the mission budget. This is a training mission: follow the guidance, learn how each choice changes mass, fuel and cost.",
+            "missionType": "crewed",
+            "crew": 3,
+            "requiredSpacecraftId": "SC-CSMLM",
+            "destinationPlanetId": "PLNT-MOON",
+            "distanceKm": 384400,
+            "crewedPadRequired": true,
+            "crewRatedVehicleRequired": true,
+            "capacityMetric": "TLI",
+            "instrumentRequirements": [
+                {
+                    "type": "required",
+                    "ids": [
+                        "INS-MOXIE"
+                    ],
+                    "role": "",
+                    "count": 1,
+                    "severity": "block",
+                    "consequence": "A crewed mission must carry the oxygen generator. Without it the crew has no breathing air."
+                },
+                {
+                    "type": "anyOfRole",
+                    "ids": [],
+                    "role": "Surface",
+                    "count": 1,
+                    "severity": "soft",
+                    "consequence": "The tutorial expects at least one surface science station for lunar science."
+                }
+            ],
+            "minScienceValue": 50,
+            "budgetUSD": 700000000,
+            "deltaV": [
+                {
+                    "phase": "departure",
+                    "dvMS": 5500,
+                    "scope": "vehicle"
+                },
+                {
+                    "phase": "arrival",
+                    "dvMS": 2600,
+                    "scope": "spacecraft"
+                },
+                {
+                    "phase": "return",
+                    "dvMS": 2400,
+                    "scope": "spacecraft"
+                }
+            ],
+            "isTutorial": true,
+            "successCondition": "Crew lands on the lunar surface and returns to Earth."
+        },
+        {
+            "id": "M1-MARS2020",
+            "name": "Mars 2020",
+            "briefTitle": "MISSION 01: MARS 2020",
+            "briefBody": "Your objective is to deliver a scientific rover to Mars. Configure a spacecraft and launch system capable of completing the journey while remaining within the mission's engineering and financial constraints. Validate all systems before launch. Mission success depends on your engineering decisions.",
+            "missionType": "automated",
+            "crew": 0,
+            "requiredSpacecraftId": "SC-PERSAV",
+            "destinationPlanetId": "PLNT-MARS",
+            "distanceKm": 470000000,
+            "crewedPadRequired": false,
+            "crewRatedVehicleRequired": false,
+            "capacityMetric": "TMI",
+            "instrumentRequirements": [
+                {
+                    "type": "required",
+                    "ids": [
+                        "INS-SHERLOC"
+                    ],
+                    "role": "",
+                    "count": 1,
+                    "severity": "block",
+                    "consequence": "The Mars 2020 objective requires the UV mineral scanner to search for signs of ancient life."
+                },
+                {
+                    "type": "anyOfRole",
+                    "ids": [],
+                    "role": "Mast",
+                    "count": 1,
+                    "severity": "soft",
+                    "consequence": "The mission needs at least one mast instrument to survey the terrain."
+                }
+            ],
+            "minScienceValue": 95,
+            "budgetUSD": 300000000,
+            "deltaV": [
+                {
+                    "phase": "departure",
+                    "dvMS": 5000,
+                    "scope": "vehicle"
+                },
+                {
+                    "phase": "arrival",
+                    "dvMS": 200,
+                    "scope": "spacecraft"
+                }
+            ],
+            "isTutorial": false,
+            "successCondition": "Rover delivered to the Martian surface."
+        },
+        {
+            "id": "M2-ARTEMIS3",
+            "name": "Artemis III",
+            "briefTitle": "MISSION 02: ARTEMIS III",
+            "briefBody": "Your objective is to return humans to the lunar surface at the south pole. A crew of four must reach the Moon, land, conduct surface operations and return. Human life support, crew capacity and launch vehicle capability are critical. This is the most demanding mission in the program.",
+            "missionType": "crewed",
+            "crew": 4,
+            "requiredSpacecraftId": "SC-ORIONLANDER",
+            "destinationPlanetId": "PLNT-MOON",
+            "distanceKm": 384400,
+            "crewedPadRequired": true,
+            "crewRatedVehicleRequired": true,
+            "capacityMetric": "TLI",
+            "instrumentRequirements": [
+                {
+                    "type": "required",
+                    "ids": [
+                        "INS-MOXIE"
+                    ],
+                    "role": "",
+                    "count": 1,
+                    "severity": "block",
+                    "consequence": "A crewed mission must carry the oxygen generator. Without it the crew has no breathing air."
+                }
+            ],
+            "minScienceValue": 90,
+            "budgetUSD": 1200000000,
+            "deltaV": [
+                {
+                    "phase": "departure",
+                    "dvMS": 5500,
+                    "scope": "vehicle"
+                },
+                {
+                    "phase": "arrival",
+                    "dvMS": 2600,
+                    "scope": "spacecraft"
+                },
+                {
+                    "phase": "return",
+                    "dvMS": 2400,
+                    "scope": "spacecraft"
+                }
+            ],
+            "isTutorial": false,
+            "successCondition": "Crew lands at the lunar south pole and returns to Earth."
+        }
+    ]
+}

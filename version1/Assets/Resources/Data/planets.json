@@ -1,0 +1,54 @@
+{
+    "items": [
+        {
+            "id": "PLNT-EARTH",
+            "name": "Earth",
+            "massKg": 5.972e24,
+            "radiusKm": 6371,
+            "surfaceGravityMS2": 9.81,
+            "atmosphere": "Nitrogen/Oxygen, sea-level pressure 101.3 kPa",
+            "distanceFromEarthKm": 0,
+            "source": "NASA planetary fact sheet"
+        },
+        {
+            "id": "PLNT-MOON",
+            "name": "Moon",
+            "massKg": 7.342e22,
+            "radiusKm": 1737,
+            "surfaceGravityMS2": 1.62,
+            "atmosphere": "None (exosphere only)",
+            "distanceFromEarthKm": 384400,
+            "source": "NASA planetary fact sheet"
+        },
+        {
+            "id": "PLNT-MARS",
+            "name": "Mars",
+            "massKg": 6.417e23,
+            "radiusKm": 3390,
+            "surfaceGravityMS2": 3.71,
+            "atmosphere": "Thin CO2, ~0.6 kPa surface pressure",
+            "distanceFromEarthKm": 470000000,
+            "source": "NASA planetary fact sheet; distance is a typical cruise-path value"
+        },
+        {
+            "id": "PLNT-VENUS",
+            "name": "Venus",
+            "massKg": 4.867e24,
+            "radiusKm": 6052,
+            "surfaceGravityMS2": 8.87,
+            "atmosphere": "Dense CO2, ~9200 kPa surface pressure",
+            "distanceFromEarthKm": 41000000,
+            "source": "NASA planetary fact sheet; distance is the typical minimum value"
+        },
+        {
+            "id": "PLNT-SUN",
+            "name": "Sun",
+            "massKg": 1.989e30,
+            "radiusKm": 696000,
+            "surfaceGravityMS2": 274,
+            "atmosphere": "Plasma photosphere",
+            "distanceFromEarthKm": 149600000,
+            "source": "NASA planetary fact sheet"
+        }
+    ]
+}

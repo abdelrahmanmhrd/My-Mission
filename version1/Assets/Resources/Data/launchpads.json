@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": "PAD-39A",
+            "name": "LC-39A",
+            "description": "The historic pad that launched Apollo 11, later refitted for Falcon 9 crewed flights. Full crew-access infrastructure.",
+            "compatibleVehicles": ["LV-SATV", "LV-F9"],
+            "crewInfrastructure": true,
+            "costUSD": 25000000,
+            "source": "NASA KSC LC-39A operational history"
+        },
+        {
+            "id": "PAD-39B",
+            "name": "LC-39B",
+            "description": "Kennedy Space Center's pad for the Space Launch System, purpose-built with mobile launcher and crew access arm for Artemis.",
+            "compatibleVehicles": ["LV-SLS"],
+            "crewInfrastructure": true,
+            "costUSD": 25000000,
+            "source": "NASA KSC LC-39B Artemis configuration"
+        },
+        {
+            "id": "PAD-41",
+            "name": "SLC-41",
+            "description": "Cape Canaveral pad for the Atlas family. This is where Mars 2020 lifted off. No crew access arm.",
+            "compatibleVehicles": ["LV-ATLAS541"],
+            "crewInfrastructure": false,
+            "costUSD": 18000000,
+            "source": "ULA SLC-41 launch history"
+        },
+        {
+            "id": "PAD-40",
+            "name": "SLC-40",
+            "description": "Cape Canaveral pad dedicated to Falcon 9 cargo missions. Fastest and cheapest option, but no crew infrastructure.",
+            "compatibleVehicles": ["LV-F9"],
+            "crewInfrastructure": false,
+            "costUSD": 15000000,
+            "source": "SpaceX SLC-40 launch history"
+        }
+    ]
+}

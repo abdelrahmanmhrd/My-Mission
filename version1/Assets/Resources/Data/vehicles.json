@@ -1,0 +1,155 @@
+{
+    "items": [
+        {
+            "id": "LV-F9",
+            "name": "Falcon 9",
+            "description": "Modern two-stage workhorse. Nine kerosene engines on the first stage, one vacuum engine on the second. Flown expendable for high-energy interplanetary missions.",
+            "crewRated": true,
+            "costUSD": 90000000,
+            "payloadLEOT": 22.8,
+            "payloadTLIT": 4.0,
+            "payloadTMIT": 4.3,
+            "stages": [
+                {
+                    "stageName": "Stage 1",
+                    "boosterSlots": 9,
+                    "upperSlots": 0,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 25600,
+                    "maxFuelFU": 411,
+                    "restartable": false
+                },
+                {
+                    "stageName": "Stage 2",
+                    "boosterSlots": 0,
+                    "upperSlots": 1,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 4000,
+                    "maxFuelFU": 107,
+                    "restartable": true
+                }
+            ],
+            "source": "SpaceX Falcon 9 user guide; stage dry masses and capacities are approximations for gameplay"
+        },
+        {
+            "id": "LV-ATLAS541",
+            "name": "Atlas V 541",
+            "description": "Atlas V with one kerosene main engine and five fixed solid boosters, topped by a hydrogen Centaur upper stage. This is the vehicle that launched Mars 2020.",
+            "crewRated": true,
+            "costUSD": 110000000,
+            "payloadLEOT": 17.4,
+            "payloadTLIT": 2.5,
+            "payloadTMIT": 4.5,
+            "stages": [
+                {
+                    "stageName": "Stage 1",
+                    "boosterSlots": 1,
+                    "upperSlots": 0,
+                    "fixedSolidBoosters": 5,
+                    "fixedBoosterThrustKN": 8440,
+                    "fixedBoosterMassKg": 230000,
+                    "dryMassKg": 21054,
+                    "maxFuelFU": 284,
+                    "restartable": false
+                },
+                {
+                    "stageName": "Centaur",
+                    "boosterSlots": 0,
+                    "upperSlots": 1,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 2247,
+                    "maxFuelFU": 20.8,
+                    "restartable": true
+                }
+            ],
+            "source": "ULA Atlas V 551/541 mission data; AJ-60A booster specs. Figures approximated for gameplay"
+        },
+        {
+            "id": "LV-SATV",
+            "name": "Saturn V",
+            "description": "The only rocket that has ever carried humans beyond low Earth orbit. Three kerosene/hydrogen stages, 13 total engines, enormous lunar payload capacity.",
+            "crewRated": true,
+            "costUSD": 400000000,
+            "payloadLEOT": 140,
+            "payloadTLIT": 48.6,
+            "payloadTMIT": 15,
+            "stages": [
+                {
+                    "stageName": "S-IC",
+                    "boosterSlots": 5,
+                    "upperSlots": 0,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 130000,
+                    "maxFuelFU": 2150,
+                    "restartable": false
+                },
+                {
+                    "stageName": "S-II",
+                    "boosterSlots": 0,
+                    "upperSlots": 5,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 36000,
+                    "maxFuelFU": 444,
+                    "restartable": false
+                },
+                {
+                    "stageName": "S-IVB",
+                    "boosterSlots": 0,
+                    "upperSlots": 1,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 13500,
+                    "maxFuelFU": 106,
+                    "restartable": true
+                }
+            ],
+            "source": "NASA Saturn V news reference; stage masses and propellant loads approximated for gameplay"
+        },
+        {
+            "id": "LV-SLS",
+            "name": "SLS Block 1",
+            "description": "NASA's current super heavy-lift rocket: a hydrogen core stage with four RS-25 engines and two fixed five-segment solid boosters, topped by an interim cryogenic stage. Built for Artemis.",
+            "crewRated": true,
+            "costUSD": 800000000,
+            "payloadLEOT": 95,
+            "payloadTLIT": 27,
+            "payloadTMIT": 0,
+            "stages": [
+                {
+                    "stageName": "Core Stage",
+                    "boosterSlots": 4,
+                    "upperSlots": 0,
+                    "fixedSolidBoosters": 2,
+                    "fixedBoosterThrustKN": 29200,
+                    "fixedBoosterMassKg": 1460000,
+                    "dryMassKg": 95000,
+                    "maxFuelFU": 987,
+                    "restartable": false
+                },
+                {
+                    "stageName": "ICPS",
+                    "boosterSlots": 0,
+                    "upperSlots": 1,
+                    "fixedSolidBoosters": 0,
+                    "fixedBoosterThrustKN": 0,
+                    "fixedBoosterMassKg": 0,
+                    "dryMassKg": 3500,
+                    "maxFuelFU": 27,
+                    "restartable": true
+                }
+            ],
+            "source": "NASA SLS Block 1 public performance data; core stage dry mass estimated for gameplay"
+        }
+    ]
+}

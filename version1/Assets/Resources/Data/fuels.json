@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": "FUEL-KEROLOX",
+            "name": "Kerosene / LOX",
+            "description": "Refined kerosene burned with liquid oxygen (RP-1). Dense, cheap, and compact, which keeps tanks small and heavy for its energy.",
+            "ispMultiplier": 1.0,
+            "tankMassFactor": 0.06,
+            "costPerFU": 10000,
+            "source": "Standard RP-1/LOX performance reference; cost is a gameplay approximation"
+        },
+        {
+            "id": "FUEL-HYDROLOX",
+            "name": "Hydrogen / LOX",
+            "description": "Liquid hydrogen burned with liquid oxygen. Highest efficiency of any chemical propellant, but it is extremely light, so tanks must be very large and heavy.",
+            "ispMultiplier": 1.15,
+            "tankMassFactor": 0.12,
+            "costPerFU": 30000,
+            "source": "Standard LH2/LOX performance reference; tank factor approximated for gameplay"
+        },
+        {
+            "id": "FUEL-METHALOX",
+            "name": "Methane / LOX",
+            "description": "Liquid methane burned with liquid oxygen. A middle ground: cleaner burning and more efficient than kerosene, denser and cheaper to store than hydrogen.",
+            "ispMultiplier": 1.1,
+            "tankMassFactor": 0.08,
+            "costPerFU": 20000,
+            "source": "Standard CH4/LOX performance reference; cost is a gameplay approximation"
+        },
+        {
+            "id": "FUEL-HYPERGOLIC",
+            "name": "Hypergolic Storable",
+            "description": "MMH fuel and NTO oxidizer ignite on contact with no ignition system. Storable for years and extremely reliable, but less efficient and more expensive per tonne.",
+            "ispMultiplier": 0.9,
+            "tankMassFactor": 0.05,
+            "costPerFU": 150000,
+            "source": "Standard MMH/NTO performance reference; cost is a gameplay approximation"
+        }
+    ]
+}
