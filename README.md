@@ -13,6 +13,10 @@ it succeeds or fails.
 
 ## 1. Play the game
 
+> **Note:** the prebuilt game apps (150–180 MB binaries) are not stored in this git
+> repository (GitHub size limits); they ship with the submission package. To run the
+> game from source instead, see section 4 — open the project in Unity and press Play.
+
 ### Windows
 1. Open the `Builds/Windows` folder.
 2. Double-click **MyMission.exe**.
@@ -67,8 +71,8 @@ mymission/version1/                     ← project root
 ├── dataset_review.md                   ← component data + sources + integrity rules
 │
 ├── Builds/                             ← THE PLAYABLE GAMES
-│   ├── Mac/MyMission.app               ← macOS build
-│   └── Windows/MyMission.exe           ← Windows build (whole folder ships together)
+│   ├── Mac/MyMission.app               ← macOS build (ships with submission package,
+│   └── Windows/MyMission.exe           ←  not in this repo — binary size; build via §4)
 │
 ├── version1/                           ← the Unity project (open this folder in Unity)
 │   ├── Assets/
@@ -92,6 +96,9 @@ mymission/version1/                     ← project root
 │
 ├── tests/GameTestSuite.cs              ← 107-check regression suite (run via unity CLI)
 ├── 3dmodels/                           ← original delivered model files (source, not in the build)
+│                                         (the ~700 MB of largest originals — NASA Project.zip,
+│                                         F1 engine, SLS, ISS — exceed GitHub file-size limits
+│                                         and are excluded from this repo; available on request)
 ├── credits/ + references/              ← license texts for every downloaded asset
 └── myMission2/                         ← (scratch folder — can be deleted)
 ```
